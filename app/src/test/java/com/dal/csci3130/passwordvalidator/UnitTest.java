@@ -6,6 +6,13 @@ import static org.junit.Assert.*;
 
 /**
  * Created by Brent on 2018-02-06.
+ *
+ * This class contains all required tests to ensure that the
+ * Validator method is working correctly.
+ *
+ * It tests various passwords that give a result of either
+ * true or false, depending on whether that password is
+ * valid.
  */
 
 public class UnitTest {
@@ -49,5 +56,4 @@ public class UnitTest {
     {
         assertTrue(Validator.isValid("TheChosenOne!1"));
     }
-
 }
